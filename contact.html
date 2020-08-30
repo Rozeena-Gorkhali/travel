@@ -1,0 +1,107 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact page</title>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="contact-form">
+	<h1>Contact Us</h1>
+	<div id="errormessage"></div>
+
+	<form id="myform" onsubmit="return validateForm()">
+	<div class="form-group">
+		<label style="color: #959999">Full Name</label>
+		<input type="text" id="username" class="form-control" name="name" placeholder="Enter Your Name">
+	
+	</div> 
+
+	<div class="form-group">
+		<label style="color: #959999">Email</label>
+		<input type="email" id="mail" class="form-control" placeholder="Enter EmailID">
+		
+	</div>
+
+	<div class="form-group">
+		<label style="color: #959999">Subject</label>
+		<input type="text" id="sub" class="form-control" placeholder="Enter the relevant subject">
+
+	</div>
+
+	<div class="form-group">
+		<label style="color: #959999">Message</label>
+		<textarea id="message"></textarea>
+		
+	</div>
+<div class="btn-Search">
+	<input type="submit" name="submit" value="Submit">
+</div>
+</div>
+</form>
+<script type="text/javascript">
+	function validateForm(){
+  
+ var name = document.getElementById('username').value;
+  var email = document.getElementById('mail').value;
+   var subject = document.getElementById('sub').value;
+    var message = document.getElementById('message').value;
+     var errormessage = document.getElementById('errormessage').value;
+
+     var text;
+    
+
+     if(name.length <=2 || (name.length >20)){
+     	text = "Please enter valid name";
+     	document.getElementById('errormessage').innerHTML = text;
+     	return false;
+     }
+
+   
+
+     if(email.indexOf("@") <=0){
+     	text = "Invalid position";
+     	document.getElementById('errormessage').innerHTML = text;
+     	return false;
+     }
+
+     if((email.charAt(email.length - 4)!='.') && (email.charAt(email.length-3)!='.')){
+     	text = " . Invalid position";
+     	document.getElementById('errormessage').innerHTML = text;
+     	return false;
+     }
+
+     if(subject.length <10){
+     	text = "Please enter relevant subject";
+     	document.getElementById('errormessage').innerHTML = text;
+     	return false;
+     }
+
+     if(message.length <= 140){
+     	text = "Please enter your message";
+     	document.getElementById('errormessage').innerHTML = text;
+     	return false;
+     }
+alert("Form submitted successfully!");
+return false;
+}
+
+</script>
+
+
+
+
+</body>
+</html>

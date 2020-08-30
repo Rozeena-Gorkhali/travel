@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "monstserrat", sans-serif;
+	box-sizing: border-box;
+	
+}
+
+.gallery-section{
+	width: 100%;
+	padding: 60px 0;
+	background: #f1f1f1;
+	background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url(../image/travel.jpg);
+	background-size: cover;
+}
+
+.inner-width{
+	margin: 0 auto;
+
+	max-width: 1200px;
+	width: 60%;
+	padding: 0 20px;
+
+}
+
+.gallery img{
+	width: 180px;
+	height: 142px;
+	transition: 0.4s;
+}
+
+.gallery-section h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.border{
+	width: 180px;
+	height: 4px;
+	background: #333;
+	margin: 60px auto;
+}
+
+.gallert-section .gallery{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+}
+
+.gallery-section .image{
+	flex: 25%;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.gallery-section .image:hover img{
+	transform: scale(1.4) ;
+	opacity: 0.5;
+	transition: 0.9s;
+}
+
+@media screen and (max-width: 960px){
+	.gallery-section .image{
+		flex: 33.33%;
+	}
+
+	@media screen and (max-width: 768px){
+	.gallery-section .image{
+		flex: 50%;
+	}
+
+	@media screen and (max-width: 480px){
+	.gallery-section .image{
+		flex: 100%;
+	}
+}

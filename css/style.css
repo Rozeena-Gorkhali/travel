@@ -1,0 +1,1541 @@
+*{margin: 0; padding: 0; box-sizing:border-box;
+font-family: 'Work Sans', sans-serif;}
+h2{
+	color:#fff;
+}
+
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url('../image/background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.header-book{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0,112,255,0.3),rgba(0,112,255,0.3)), url('../image/tajmahal.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.header-search{
+   width: 100%;
+  height: 250px;
+  background-image:linear-gradient(rgba(0,112,255,0.3),rgba(0,112,255,0.3)), url('../image/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	right: 0;
+	left: 0;
+	background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+	opacity: 0.3;
+	z-index: -1;
+}
+#topbar{
+	margin: 0 auto;
+	padding-left: 500px;
+	height: 19px;
+	left: 900px;
+	top: 30px;
+	opacity: 1;
+}
+
+.topbar-image a{
+	border-left: 1px solid #CCC;
+	width: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.topbar-image a:hover{
+	color: #fff;
+}
+
+.navbar{
+	padding: 0px;
+	margin-top: 30px;
+	width: 948px;
+	left: 192px;
+}
+
+.navbar-nav li{
+	z-index: 1;
+}
+
+.navbar-nav li a{
+	color: #000 !important;
+	font-weight: bold;
+}
+
+.navbar-nav li a:hover{
+	transition: 0.5s all;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #000;
+}
+
+.container-text{
+	margin-top: 100px;
+	float: right;
+	position: relative;
+	width: 400px;
+	height: 280px;
+	padding-left: 30px;
+	background-color: #CCCCCC;
+
+}
+
+.container-text h6{
+	margin-top: 10px;
+}
+
+.quick-links{
+  left: 0;
+  bottom: 0;
+  width: 1000px;
+  position: absolute;
+  background: linear-gradient(to right,#656c74,#19d7f8);
+  margin: 50px 100px -90px 200px;
+}
+
+.quick-links ul{
+  display: inline-flex;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.quick-links ul li{
+  list-style: none;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.quick-links ul li .fa{
+  font-size: 25px;
+  color: #fff;
+}
+
+.quick-links ul li p{
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.quick-links ul li #btnSearch{
+  width: 100px;
+  padding: 15px 32px;
+  background-color:#809fff; 
+  color:white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+h3{
+	font-weight: bold;
+  margin-top: 120px;
+  margin-left: 40px;    
+  height: 30px;
+  left: 127px;
+  letter-spacing: 0px;
+  font: 36px;
+  text-align: left;
+  color: #000000;
+}
+
+#article-summary{
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+.extradiv{
+	margin-top: 5px;
+	text-align: justify;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+/*******************Three extra div css starts************8*/
+.header-extradiv{
+	width: 100%;
+	height: auto;
+	margin: 100px 0;
+	text-align: center;
+}
+
+.icon-image{
+	left: 0;
+  margin-top: 120px;
+  bottom: 0;
+  width: 1000px;
+  margin: 0 200px 0 200px;
+}
+.extra {
+	background: #fff;
+	border:medium none;
+	padding: 40px !important;
+	border-radius: 3px;
+	transition: 0.3;
+}
+
+.extra:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.extra ul{
+	display: inline-flex;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.extra ul li{
+	list-style: none;
+	margin: 0 30px;
+	cursor: pointer;
+}
+
+
+
+
+/*******************Three extra div css ends************8*/
+
+
+/***********************image container css starts***********8*/
+.container .image-pray{
+	margin: 0 auto;
+	top: 200px;
+}
+
+.container .pray-container{
+	width: 460px;
+      padding-left: 30px; 
+      margin-left: 10px; 
+      border: 2px solid #FFFFFF;
+      background-color: #FFFFFF;
+      padding-top: 5px;
+      margin-top:-300px;
+      height: 250px;
+      opacity: 0.85;
+      position: absolute;
+}
+
+.pray-container #btn-book{
+      float: right;
+
+
+    }
+/**********************image container css ends************88*/
+
+/************************comfortable trip css starts*************/
+.comfort-trip{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+	margin-top: 120px;
+	color: #9FA1AB;
+}
+
+.box{
+	text-align: justify;
+	border:1px solid rgba(0,0,0,0.2);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 2px;
+	transition: 0.3s ease;
+}
+
+.carousel-indicators{
+	position: absolute;
+	right: 0;
+	bottom: -60px!important;
+}
+
+.carousel-indicators li{
+	background-color: #16c9f6!important;
+}
+
+.box p{
+  padding-left: 5px;
+}
+
+.box h5{
+	font-size: 13px;
+	font-weight: 700;
+	color: #000;
+	padding-left: 10px;
+	margin-bottom: 10px;
+
+}
+
+.box ul{
+	text-decoration: none;
+	padding-left: 25px;
+}
+
+.box .text-muted{
+	padding-left: 5px;
+}
+.box #btn-book{
+	float: right;
+	margin-top: -20px;
+  border-left: 10px;
+  margin-right: 10px;
+}
+
+/****************comfortable trip css ends***************/
+
+/***************thailand hotel css starts**********/
+.hotels{
+	margin-top: 100px;
+}
+/***************thailand hotel css ends**********/
+
+/************second caraosuel css starts**********/
+.secondcomfort{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+	margin-top: 120px;
+	color: #9FA1AB;
+}
+
+
+
+/************second caraosuel css starts**********/
+
+/*******************newsletter css starts***************/
+.container-news{
+	 width: 1110px;
+      margin: 0 auto;
+      background-color: #364FC7;
+      height: 170px;
+}
+
+.container-news h3{
+      padding-top: 40px;
+
+    }
+
+ .container-news p{
+      width: 470px;
+      top: 0;
+      margin: 20px;
+      color: #FFFFFF;
+     padding-top: 30px;
+      padding-left: 10px;
+    }
+
+   .container-news #email{
+      width: 320px;
+      margin-left: 600px;
+      margin-top: -120px;
+      height: 45px;
+      border: 1px solid #ffffff;
+      opacity: 0.66;
+
+    }
+
+  .container-news #submit{
+      
+      width:120px;
+      height: 45px;
+      background: #2E9ECE;
+      opacity: 1; 
+      margin-top: -120px;
+    }
+
+
+/*******************newsletter css ends***************/
+
+/***********************catalog css starts****************8*/
+.catalog{
+    margin-top: 120px;
+    margin-left: 130px;
+    padding-left: 30px;
+    padding-top: 50px;
+    width: 700px;
+    height: 270px;
+    background: #CAE7ED;
+    opacity: 1;
+    
+   }
+
+   .catalog .catalog-para{
+    width: 550px;
+   }
+
+   .catalog img{
+    margin-left: 550px;
+    margin-top: -212px;
+    width: 500px;
+    height: 270px;
+   }
+
+/**********************catalog css ends***********************/
+
+.container-glossary{
+    position: absolute;
+    
+    left: 0px;
+   
+    height: 405px;
+    margin-top: 120px;
+    margin-right: 100px;
+ }
+
+ .glossary-head{
+    width: 1110px;
+    border: 1px solid #CCCCCC;
+    height: 300px;
+   margin-left: 120px;
+   margin-right: 100px;
+    
+    background:#F1F3F5;
+    padding-top: 10px;
+    opacity: 1;
+    
+    box-shadow: 0px -5px 10px;
+
+ }
+
+ .container-glossary h4{
+  text-align: center;
+ }
+
+ .container-glossary p{
+  text-align: center;
+ }
+
+ .glossary-text{
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-right: 20px;
+ }
+
+ .glossary-text .pagination{
+  width: 300px;
+
+ }
+
+.pagination .page-item{
+  padding-left: 15px;
+  text-align: center;
+  font-family: Work Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #364FC7;
+}
+
+.pager{
+  margin-left: 100px;
+}
+
+.travel{
+  margin-top: 350px;
+  margin-left: 230px;
+  width: 900px;
+  height: 90px;
+  border: 1px solid #CCCCCC;
+  background: #0757C3;
+  position: absolute;
+  opacity: 1;
+  box-shadow: 0px -5px 10px;
+
+}
+
+.travel h4{
+  float: left;
+  padding-top: 5px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 1px solid #CCCCCC;
+  color: #FFFFFF;
+}
+
+.block{
+  position: absolute;
+  width: 1200px;
+  padding: 80px 0;
+  margin-top: 430px;
+  margin-left: 90px;
+  background: #000A3A;
+  opacity: 1;
+}
+
+.block h3{
+  color: #FFFFFF;
+  font-family: Work Sans;
+  letter-spacing: 3px;
+  margin: 10px 0 0 10px;
+  font-size: 18px;
+  opacity: 1;
+}
+
+.block ul{
+  margin: 10px 0 0 10px;
+  padding: 0;
+  list-style: none;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.segment-four p{
+  margin: 5px 0 0 10px;
+  padding: 0;
+  list-style: none;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.segment-four a{
+  background: #494848;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 10px;
+  opacity: 1;
+}
+
+.segment-four a i{
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 10px 11px;
+  opacity: 1;
+}
+
+
+.footer-top{
+  margin-top: 780px;
+  border: 1px solid #CCCCCC;
+  position: absolute;
+  width: 1200px;
+  margin-left: 90px;
+  font-family: Arial;
+  background: #CCCCCC;
+  opacity: 1;
+  height: 50px;
+  padding-top: 15px;
+}
+
+.footer-top i{
+  margin-left: 80px;
+
+}
+
+.footer-top h6{
+  float: right;
+  margin-right: 250px;
+  margin-top: -25px;
+
+}
+
+.footer-icon #icon{
+  float: right;
+  margin-right: 200px;
+ margin-top: -30px;
+}
+
+.footer-icon #master{
+  float: right;
+  margin-top: -30px;
+  margin-right: 150px;
+}
+
+#back-to-top{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 9999;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background: url(../image/arrows.jpg);
+	background-repeat: no-repeat;
+	color: #444;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	background-size: 40px;
+	opacity: 0;
+
+}
+#back-to-top.show{
+opacity: 1;
+}
+
+
+
+/*******************Booking page Css starts*****************/
+.container-content{
+  margin-top: 100px;
+  float: left;
+  color: #F4F9FA;
+  padding-left: 40px;
+  position: absolute;
+}
+
+.container-code{
+  float: right;
+  margin-top: 100px;
+  color: #F4F9FA;
+  padding-right: 150px;
+}
+
+.gallery-section{
+  margin-top: 120px;
+}
+
+
+.gallery-part{
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+
+}
+
+.gallery-part .image{
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-part .image img{
+  transition: 0.4s;
+}
+
+.gallery-part .image:hover img{
+  transform: scale(1.4) rotate(15deg);
+}
+
+.container-travel{
+  margin-top: 120px;
+
+}
+
+.container-travel ul{
+  color: #656C74;
+}
+
+.container-travel ul{
+  padding-left: 25px;
+}
+
+.container-button{ 
+  border: 1px solid #CCCCCC;
+  width: 1110px;
+  margin-top: -33px;
+  height: 120px;
+  background: transparent linear-gradient(180deg, #f1f1f11a 0%, #FFFFFF 100%);
+  box-shadow: 0px -5px 10px;
+  opacity: 1;
+ }
+
+ .container-button #submit{
+  margin-top: 60px;
+  margin-left: 550px;
+  width: 100px;
+ }
+
+.rajasthan{
+  margin-top: 120px;
+  text-align: justify;
+}
+
+.rajasthan ul{
+  padding-left: 20px;
+}
+
+.rajasthan li{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rajasthan p{
+  color: #656C74;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+
+.navbarNav{
+  margin-top: 50px;
+}
+
+.navbar-nav{
+  margin-left: 70px;
+  padding-left: 20px;
+
+}
+.navbar-link{
+  font-size: 16px;
+  padding-left: 70px;
+ 
+}
+
+ #btnbook{
+  float: right;
+  margin-left: 70px;
+  }
+
+
+.itinerary{
+  margin-top: 80px;
+  font-size: 24px;
+  font-family: Arial;
+  
+
+}
+
+.itinerary .test{
+  border: 1px solid #CCCCCC;
+  top: 2587px;
+  margin-left: 128px;
+  width: 70px;
+  height: 30px;
+  float: left;
+  margin-top: 50px;
+  background: #364FC7;
+
+}
+
+ .test h6{
+  font-size: 18px;
+  font-family: Arial;
+  padding-left: 5px;
+  margin-left: 5px;
+  padding-top: 5px;
+
+}
+
+ .iternary{
+  border: 1px solid #CCCCCC;
+  margin-top:120px;
+  margin-top: 30px;
+  margin-left: 128px;
+  width: 70px;
+  height: 30px;
+  float: left;
+  margin-top: 50px;
+  background: #364FC7;
+  opacity: 1;
+}
+
+.iternary h6{
+  font-size: 18px;
+  font-family: Arial;
+  padding-left: 5px;
+  margin-left: 5px;
+  padding-top: 5px;
+  opacity: 1;
+}
+
+
+.itenary-text{
+  
+  border: 1px solid #CCCCCC;
+  width: 600px;
+  height: 120px;
+  background: #F1F3F5;
+  float: right;
+  opacity: 1;
+
+
+}
+
+.itenary-text h5{
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.itenary-text p{
+  top: 0px;
+  left: 0px;
+  color: #14424A;
+  font-size: 14px;
+  opacity: 1;
+  padding-left: 10px;
+  }
+
+
+.itenary-test{
+  margin-top: 10px;
+  border: 1px solid #CCCCCC;
+  width: 600px;
+  height: 120px;
+  background: #F1F3F5;
+  float: right;
+  opacity: 1;
+}
+
+.itenary-test h5{
+  padding-left: 10px;
+  padding-top: 15px;
+
+}
+
+.itenary-test p{
+  top: 0px;
+  left: 0px;
+  color: #14424A;
+  font-size: 14px;
+  opacity: 1;
+  padding-left: 10px; 
+}
+
+.iternary-button{
+ border: 1px solid #CCCCCC;
+  width: 1120px;
+  margin-top: 110px;
+  height: 120px;
+  background: transparent linear-gradient(180deg, #f1f1f11a 0%, #FFFFFF 100%);
+  box-shadow: 0px -5px 10px;
+  opacity: 1;
+}
+
+
+.iternary-button #submit{
+  margin-top: 60px;
+  margin-left: 550px;
+  width: 100px;
+ }
+
+
+.hotel-tour{
+   margin-top: 120px;
+
+}
+
+.hotel-tour ul{
+   text-align: left;
+  
+}
+
+.hotel-tour ul li{
+  top: 3130px;
+  left: 157px;
+  width: 321px;
+  height: 28px;
+  text-align: left;
+  font-size: 22px;
+  font-family: Arial;
+  color: #000000;
+  opacity: 1;
+}
+
+.hotel-tour ul p{
+  top: 2100px;
+  margin-top: 5px;
+  left: 128px;
+  width: 583px;
+  height: 103px;
+  text-align: justify;
+  font-size: 14px;
+  font-family: Work Sans;
+  letter-spacing: 0px;
+  color: #656C74;
+  opacity: 1;
+}
+
+.service{
+  margin-top: 120px;
+}
+
+.service-list{
+  top: 3566px;
+  left: 157px;
+  widows: 100px;
+  height: 28px;
+  text-align: left;
+  font-size: 20px;
+  color: #000000;
+  opacity:1;
+}
+
+.service .para li{
+  list-style-type: square;
+  left: 169px;
+  width: 1050px;
+  margin-left:10px;
+  font:Regular 16px Work Sans;
+  letter-spacing: 0;
+  color: #656C74;
+  opacity: 1;
+}
+
+.pricetag{
+  margin-top: 100px; 
+}
+
+.info-button{ 
+  border: 1px solid #CCCCCC;
+  width: 1110px;
+  margin-top: -33px;
+  height: 120px;
+  background: transparent linear-gradient(180deg, #f1f1f11a 0%, #FFFFFF 100%);
+  box-shadow: 0px -5px 10px;
+  opacity: 1;
+ }
+
+ .info-button #submit{
+  margin-top: 60px;
+  margin-left: 550px;
+  width: 100px;
+ }
+
+ .para li{
+  list-style-type: square;
+  left: 169px;
+  width: 1050px;
+  margin-left:10px;
+  font:Regular 16px Work Sans;
+  letter-spacing: 0;
+  color: #656C74;
+  opacity: 1;
+ }
+
+/*****************booking page css ends*******888*/
+
+
+/*******************Seach page css starts****************/
+.quick-div{
+   left: 0;
+  bottom: 0;
+  width: 1000px;
+  position: absolute;
+  background:linear-gradient(to right,#db1bf6,#19d7f8);
+  margin: 30px 100px 300px 200px;
+
+}
+
+.quick-div ul{
+   display: inline-flex;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.quick-div ul li{
+  list-style: none;
+  margin: 0 30px;
+  cursor: pointer;
+
+}
+
+.quick-div ul li .fa{
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.quick-div ul li p{
+  margin-top: 15px;
+  font-size: 14px;
+  color: #fff;
+
+}
+
+.quick-div ul li #btnSearch{
+  width: 120px;
+  left: 1080px;
+  top: 255px;
+  height: 45px;
+  letter-spacing: 0.52;
+  background-color: #2E9ECE;
+  color: #FFFFFF;
+  border: none;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  opacity: 1;
+}
+
+#cards{
+  margin-top: 150px;
+  margin-left: 200px;
+   box-shadow: 0px 15px 30px #0311311C;
+}
+
+.card-button{
+  float: right;
+  margin-top: -100px;
+  margin-right: 10px;
+
+}
+
+ .card-button p{
+  font-size: 24px;
+  width: 222px;
+  height: 28px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-family: Work Sans;
+ }
+
+ .card-body .btnHotel{
+  float: right;
+  background: #737EE3;
+  
+ }
+
+ #card2{
+  margin-top: 20px;
+  margin-left: 200px;
+   box-shadow:  #0311311C;
+
+ }
+
+.cardbtn #submit{
+ top: 5759px;
+ left: 612px;
+ width: 203px;
+ height: 43px;
+ border: 2px solid #E6E6E6;
+ opacity: 1;
+ margin: 100px 0px 0px 600px;
+
+ 
+ }
+
+@media(max-width: 1024px){
+	.navbar-nav li{
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 768px){
+
+.header{
+  width: 113%;
+}
+
+.header-book{
+  width: 113%;
+}
+
+#topbar{
+  padding-left: 0;
+}
+
+.navbar{
+  width: 300px;
+  left: 0px;
+}
+
+.nav-link{
+  padding: 0px;
+}
+.navbar-nav .nav-link{
+  padding-left: 10px;
+}
+	
+.navbar-toggler{
+		margin: 0px 0px 0px 20px;
+		border-color: #ff4f81;
+	}
+
+
+.navbar-nav li a{
+	text-align: left;
+	background-color: aliceblue;
+}
+
+.container-text{
+  margin-top: 200px;
+  font-size: 14px;
+  width: 350px;
+  height: 240px;
+}
+
+.btn-primary{
+  margin-left: 10px;
+}
+
+.quick-links{
+  margin: 0px;
+  bottom: -59px;
+  width: 867px;
+  height: 120px;
+}
+
+.quick-links ul li p{
+  font-size: 12px;
+}
+
+h3{
+  margin-top: 230px;
+}
+
+.icon-image{
+  margin: 0px;
+  width: 800px;
+}
+
+.image-pray img{
+  width: 720px;
+}
+
+.container .pray-container{
+  margin-top: -280px;
+}
+
+p{
+  padding-left: 5px;
+}
+
+.box ul{
+  font-size: 12px;
+}
+
+.box #btn-book{
+  font-size: 12px;
+  width: 80px;
+  margin-right: 5px;
+}
+
+.hotels{
+  margin-top: -340px;
+}
+
+.container-news{
+  width: 790px;
+}
+
+.container-news h3{
+  margin-top: -405px;
+}
+.container-news #email{
+  width: 140px;
+  margin-left: 510px;
+}
+
+#newslettterid{
+  margin-top: 100px;
+}
+.catalog{
+  margin-left: 10px;
+}
+
+.catalog img{
+  margin-left: 395px;
+  width: 335px;
+}
+
+.glossary-head{
+  width: 747px;
+  margin-left: 25px;
+}
+
+.glossary-text{
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.pagination .page-item{
+  padding-left: 5px;
+}
+
+.travel{
+  margin-left: 13px;
+  width: 757px;
+}
+
+.block{
+  width: 757px;
+  margin-left: 13px;
+}
+
+.block h3{
+  margin: 8px 0 15px 11px;
+  font-size: 16px;
+}
+
+.footer-top{
+  width: 757px;
+  margin-left: 13px;
+}
+
+.footer-top h6{
+  margin-right: 130px;
+}
+
+.footer-icon #icon{
+  margin-right: 85px;
+}
+
+.footer-icon #master{
+  margin-right: 40px;
+}
+
+#back-to-top{
+  bottom: 50px;
+  right: 100px;
+}
+
+.gallery img{
+  width: 720px;
+  margin-left: 20px;
+
+}
+
+.gallery-part .image{
+  flex: 33.33%;
+  margin-left: 45px;
+}
+
+.container-button{
+  width: 660px;
+}
+
+.container-button #submit{
+  margin-left: 270px;
+}
+
+.itinerary .test {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .iternary{
+    margin-left: 0px;
+  }
+
+.iternary-button{
+  width: 660px;
+  margin-left: 55px;
+}
+
+.iternary-button #submit{
+  margin-left: 270px;
+}
+
+.service .para li{
+  width: 680px;
+}
+
+.pricetag .para li{
+  width: 680px;
+}
+
+.info-button{
+  width: 675px;
+}
+
+.info-button #submit{
+  margin-left: 270px;
+}
+
+
+
+@media(max-width: 375px){
+.header{
+  width: 100%;
+}
+
+.header-book{
+  width: 125%;
+
+}
+
+.navbar-toggler{
+    margin: 5px 0px 20px 30px;
+    background-color: #fff;
+    border-color: #ff4f81;
+}
+
+.topbar-image a{
+  padding-left: 2px;
+  padding-right: 10px;
+}
+
+.container-text{
+  margin-top: 100px;
+  width: 345px;
+  height: 230px;
+  float: left;
+}
+
+.quick-links{
+  margin: 0px;
+  width: 230px;
+  margin-left: 70px;
+  height: 491px;
+  bottom: -447px;
+
+}
+
+.quick-links ul{
+ display: inline-block;
+}
+
+h3{
+  margin-top: 525px;
+}
+
+p{
+  margin-top: 40px;
+}
+
+.icon-image{
+  width: 210px;
+  margin-left: 95px;
+}
+
+.image-pray img{
+  width: 355px;
+  height: 250px;
+}
+
+.container .pray-container{
+  margin-top: -230px;
+  width: 320px;
+  height: 211px;
+  font-size: 12px;
+}
+
+.comfort-trip{
+  height: 100vh;
+  margin-top: 15px;
+}
+
+.hotels{
+  margin-top: 855px;
+}
+
+.secondcomfort{
+  height: 100vh;
+  margin-top: 25px;
+}
+
+.container-news{
+  margin-top: 1170px;
+  width: 330px;
+  height: 255px;
+}
+
+.container-news h3{
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.container-news p{
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.container-news #email{
+  width: 140px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.container-news #submit{
+  margin-top: 10px;
+}
+
+.catalog{
+  padding-left: 20px;
+  width: 356px;
+  height: 280px;
+
+}
+
+.catalog .catalog-para{
+  width: 355px;
+}
+
+.catalog img{
+  margin-left: -34px;
+  margin-top: 13px;
+  width: 354px;
+}
+
+.glossary-head{
+  width: 360px;
+  margin-left: 10px;
+  margin-top: 240px;
+}
+
+.glossary-text{
+  width: 200px;
+}
+
+.pagination .page-item{
+  padding: 0px;
+}
+.page-link{
+ padding: 3px;
+ margin-left: 1px;
+}
+.travel{
+  width: 365px;
+  margin-top: 615px;
+  height: 78px;
+  margin-left: 7px;
+}
+
+.block{
+  margin-top: 692px;
+  margin-left: 6px;
+  width: 366px;
+
+}
+
+.travel h4{
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+
+.footer-top{
+  margin-top: 1495px;
+  width: 367px;
+  height: 75px;
+  margin-left: 6px;
+}
+.footer-text{
+  margin-left: -72px;
+}
+
+.footer-top h6{
+  margin-right: -75px;
+  margin-top: 8px;
+}
+
+.footer-icon #icon{
+margin-top: 3px;
+margin-right: 190px;
+
+}
+
+.footer-icon #master{
+  margin-top: 3px;
+  margin-right: -160px;
+  
+}
+
+#back-to-top{
+  right: 143px;
+}
+
+
+.container-content .book{
+  margin-right: -140px;
+  float: right;
+}
+
+.gallery img{
+  width: 300px;
+  margin-left: 20px;
+}
+
+.gallery-part .image{
+  margin-left: 70px;
+}
+
+.container-button{
+  width: 315px;
+}
+
+.container-button #submit{
+  margin-left: 100px;
+}
+
+.itinerary{
+  margin-left: 10px;
+}
+
+.itinerary .test{
+  margin-left: -20px;
+  margin-top: 90px;
+}
+
+.itenary-text{
+  width: 260px;
+  height: 200px;
+}
+
+.iternary{
+  margin-left: -20px;
+  margin-top: 120px;
+}
+
+.itenary-test{
+  width: 260px;
+  height: 200px;
+}
+
+.iternary-button{
+  width: 297px;
+  margin-left: 60px;
+  margin-top: 190px;
+}
+
+.iternary-button #submit{
+  margin-left: 100px;
+  margin-top: 35px;
+}
+
+.hotel-tour ul li{
+  margin-left: 15px;
+}
+
+.service ul li{
+  margin-left: 15px;
+}
+
+.hotel-tour ul p{
+  width: 330px;
+}
+
+.service .para li{
+  width: 335px;
+}
+
+.pricetag ul li{
+  margin-left: 15px;
+}
+
+.pricetag .para li{
+  width: 335px;
+}
+
+.info-button{
+  width: 345px;
+}
+
+.info-button #submit{
+  margin-left: 120px;
+}
+
+.container-glossary{
+  margin-top: -140px;
+}
+
+.travel{
+  margin-top: 350px;
+}
+
+.block{
+  margin-top: 428px;
+}
+
+.footer-top{
+  margin-top: 1200px;
+}
