@@ -1,6 +1,5 @@
 # travel
-<p align ="center">
-Getting Started
-</p>
+<b>
+Getting Started</b>
 
 Installation
